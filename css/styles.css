@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Bebas Neue Cyrillic';
+  src: url('Bebas Neue Cyrillic.ttf') format("truetype");
+}
+
+body {
+  background-color: #6dece0;
+  font-family: 'Bebas Neue Cyrillic', sans-serif;
+}
+
+.title {
+
+  font-size: 4rem;
+  text-align: center;
+  color: springgreen;
+  text-shadow: 0 0 7px white, 0 0 10px white, 0 0 21px white, 0 0 42px white, 0 0 82px white, 0 0 92px white, 0 0 102px white, 0 0 151px white;
+}
+
+.carDriveway {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25%;
+  width: 25%;
+}
+
+
+.cloud {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+.cloud2 {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+  position: relative;
+  top: 300px;
+}
+
+.house {
+  display: block;
+  font-family: 'Bebas Neue Cyrillic', sans-serif;
+  color: white;
+  font-size: 4rem;
+  width: 33.33%;
+  text-shadow: 0 0 7px #4cff00, 0 0 10px #4cff00, 0 0 21px #4cff00, 0 0 42px #4cff00, 0 0 82px #4cff00, 0 0 92px #4cff00, 0 0 102px #4cff00, 0 0 151px #ff66c4;
+}
+
+.car {
+  display: block;
+  font-family: 'Bebas Neue Cyrillic', sans-serif;
+  color: white;
+  font-size: 4rem;
+  width: 33.33%;
+  text-align: center;
+  margin-left: 150px;
+  text-shadow: 0 0 7px #4cff00, 0 0 10px #4cff00, 0 0 21px #4cff00, 0 0 42px #4cff00, 0 0 82px #4cff00, 0 0 92px #4cff00, 0 0 102px #4cff00, 0 0 151px #ff66c4;
+}
+
+.support {
+  display: block;
+  font-family: 'Bebas Neue Cyrillic', sans-serif;
+  color: white;
+  font-size: 4rem;
+  width: 33.33%;
+  text-align: right;
+  margin-left: 590px;
+  text-shadow: 0 0 7px #4cff00, 0 0 10px #4cff00, 0 0 21px #4cff00, 0 0 42px #4cff00, 0 0 82px #4cff00, 0 0 92px #4cff00, 0 0 102px #4cff00, 0 0 151px #ff66c4;
+}
+
+.airbnb {
+  display: block;
+  margin-left: 25px;
+}
+
+.turo {
+  display: block;
+  margin-left: 590px;
+}
+
+
+.save {
+  display: block;
+  margin-left: 1150px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #4cff00;
+}
+
+.new-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30%;
+}
+
+@media (max-width:600px) {
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav>.nav-btn>label:hover,
+  .nav #nav-check:checked~.nav-btn>label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  .nav>.nav-links>a {
+    display: block;
+    width: 100%;
+  }
+
+
+}
